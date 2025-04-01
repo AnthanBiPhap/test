@@ -1,0 +1,24 @@
+### GET All Articles
+GET http://localhost:8080/api/v1/articles
+Content-Type: application/json
+
+###
+
+### GET Article By ID
+GET http://localhost:8080/api/v1/articles/67eb8ef2dcf4848b1dc0bbfe
+Content-Type: application/json
+
+###
+
+### POST Create Article
+POST http://localhost:8080/api/v1/articles
+Content-Type: application/json
+
+{
+  "title": "Apple released OS 15 beta44",
+  "keyword": "apple, os",
+  "description": "Today Apple released OS 15 beta",
+  "content": "In publishing and graphic design, Lorem ipsum is a placeholder text",
+  "date": "2023-10-01"
+}
+
